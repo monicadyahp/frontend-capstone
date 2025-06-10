@@ -27,7 +27,7 @@ export default function useScanPresenter() {
 
   const [lifestyleRecommendations, setLifestyleRecommendations] = useState(null);
 
-  const STATIC_APP_URL = 'https://jerahwat.vercel.app/scan';
+  const STATIC_APP_URL = 'https://jerawhat-capstone.vercel.app/';
 
   useEffect(() => {
     import("../../data/lifestyleRecomendation.json")
