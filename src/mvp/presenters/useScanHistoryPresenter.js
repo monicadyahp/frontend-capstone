@@ -11,7 +11,7 @@ export function useScanHistoryPresenter() {
   const [error, setError] = useState(null);
   const [selectedScan, setSelectedScan] = useState(null);
   const [lifestyleRecommendations, setLifestyleRecommendations] = useState(null);
-
+//test
   const STATIC_APP_URL = 'https://jerawhat-capstone.vercel.app/';
 
   useEffect(() => {

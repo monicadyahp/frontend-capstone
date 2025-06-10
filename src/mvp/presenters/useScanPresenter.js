@@ -26,7 +26,7 @@ export default function useScanPresenter() {
   const scanIntervalRef = useRef(null);
 
   const [lifestyleRecommendations, setLifestyleRecommendations] = useState(null);
-
+// test 
   const STATIC_APP_URL = 'https://jerawhat-capstone.vercel.app/';
 
   useEffect(() => {
